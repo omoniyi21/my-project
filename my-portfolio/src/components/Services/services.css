@@ -1,0 +1,46 @@
+.services-background{
+    font-family: 'Pacifico'; 
+    height: 100vh;
+     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./backgroundgraphic3.png);
+    overflow: hidden; 
+}
+
+.Footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 1%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right: 0; 
+}
+
+.cards-services{
+    display: flex;
+    box-shadow:1px 18px 44px rgba(0,0,0,.19);
+    width: 180px;
+    height: 250px;
+    background: white;
+    border-radius: 3px;
+    align-content: center;
+}
+
+.services{
+    margin-top: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}

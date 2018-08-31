@@ -1,0 +1,39 @@
+.bottom-nav{
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+
+.bottom-nav .twitter{
+    opacity: 1.0;
+}
+
+.bottom-nav .twitter:hover{
+    opacity: .8;
+}
+
+.bottom-nav .linkedin{
+    opacity: 1.0;
+}
+
+.bottom-nav .linkedin:hover{
+    opacity: .8;
+}
+
+.bottom-nav .github{
+    opacity: 1.0;
+}
+
+.bottom-nav .github:hover{
+    opacity: .8;
+}
+
+.bottom-nav .instagram{
+    opacity: 1.0;
+}
+
+.bottom-nav .instagram:hover{
+    opacity: .8;
+}
+

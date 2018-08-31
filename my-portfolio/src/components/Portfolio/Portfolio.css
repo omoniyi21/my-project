@@ -1,0 +1,75 @@
+.Portfolio {
+   /* background-image: url(./images/backgroundgraphic4.png); */
+   background-color: #FFB2B6;
+   background-attachment: relative;
+   background-position: center;
+   background-repeat: repeat;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+  
+}
+
+.Portfolio .header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.Portfolio .header span.animated{
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    position: absolute; 
+}
+
+.photogrid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 3%;
+}
+
+.photogrid1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 3%;
+}
+
+.photo1{
+    box-shadow: 1px 10px 25px rgba(0,0,0,.19);
+    
+}
+
+.photo1:hover{
+    opacity: .8;
+}
+
+
+Title-Web{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}
+
+.Footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 1%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+
+}
+
+.animated-fadeIn{
+    animation-duration: 2.5s;
+}
+
+

@@ -1,0 +1,12 @@
+.Contact{
+    font-family: 'Pacifico'; 
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./backgroundgraphic4.png);
+    overflow: hidden; 
+}
+

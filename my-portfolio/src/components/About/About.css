@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?famile=Roboto");
+
+
+.Title{
+    font-family: "Roboto", "sans serif"; 
+    height: 100vh;
+    width: 100%;
+    background-image:url("./newback1.png") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #FFC9CC;  */
+    overflow: hidden;    
+  
+}
+
+
+.biography-container{
+    font-family: "Roboto", 'sans serif';
+    font-size: 10pt;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    color: #253B4F;
+    text-shadow: 1px 1px 1px #B7B7B7;
+    border-radius: 3px;
+    background-color: rgba(255, 247, 247, 0) ;
+    
+    border: 5px solid rgba(250, 201, 201, 0.205);
+    box-shadow: 1px 18px 44px rgba(0,0,0,.19);
+    width: 60%;
+    flex-flow: row wrap;
+    
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+.biography:hover{
+    opacity: .8;
+}
+
+.biography{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   
+}
+
+
+.aboutheader-container{
+
+ 
+}
+
+ .aboutheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+}
+
+.aboutheader .Polapic{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    padding-top: 10px;
+    
+    
+}
+
+.aboutheader .Polapic:hover{
+    opacity: .8;
+}
+
+.Bio-Title{
+    font-family: "Pacifico"
+}
+
+.container{
+    background-color: blue;
+}
+
+                
+.Footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;  
+}
+
+
+.animated{
+    animation-duration: 1s;
+}
