@@ -1,0 +1,27 @@
+.web-background{
+    font-family: 'Pacifico'; 
+    height: 100vh;
+     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/backgroundgraphic2.png);
+    overflow: hidden; 
+}
+
+.webdev-title{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.photogrid1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    padding-bottom: 3%;
+}
+

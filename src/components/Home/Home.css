@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?famile=Roboto");
+
+    .background-home{
+        font-family: 'Pacifico'; 
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./images/background10.png);
+        background-size: 600px 800px; 
+        background-color: #FFEDEE; 
+        overflow: hidden;      
+    }
+/*mediaqueryformozilla
+    /* .background-home{
+        font-family: 'Pacifico'; 
+        height: 100vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./images/background10.png);
+        background-size: 600px 800px; 
+        background-color: #FFEDEE; 
+        overflow: hidden;      
+    } */
+
+    .welcome-container{
+    font-family: "Pacifico", sans-serif;
+    font-size: 30pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5b5e8e;
+    text-shadow: 1px 1px 1px #b7b7b7;
+    border-radius: 8px;
+    width: 100%;
+    flex-flow: row wrap;
+    }
+
+    .cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding-top: 15%;
+    }
+
+    
+    
+    .welcome-subtext{
+        font-family: "Roboto", "sans-serif";
+        font-size: 12pt;
+    }
+
+    
+    .home-page{
+        opacity: 1.0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+    }
+
+
+    .home-button span.animated {
+        animation-duration: 2.5s;
+        animation-iteration-count: 1;
+        position: left;
+        right: 0;
+        left: 0;
+        bottom: 50px;
+      }
+
+    /* .card{
+    background-color: aqua;
+    border-radius: 5px;
+    border: 7px white; 
+    box-shadow: 1px 18px 44px rgba(0,0,0,.19);
+    width: 220px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1%; 
+    }
+
+    .card:hover{
+        opacity: .8;
+    } */
+
+    .cards-body{
+        background:rgba(250, 250, 250, 0.568);
+        box-shadow: 1px 10px 25px rgba(0,0,0,.19);
+        width: 180px;
+        margin-left: 3%;
+        margin: auto;
+    }
+
+    .cards-body:hover{
+        opacity: .8;
+    }
+
+    .cards-body2{
+        background:rgba(250, 250, 250, 0.568);
+        box-shadow: 1px 10px 25px rgba(0,0,0,.19);
+        width: 180px;
+        height: 270px;
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .cards-body2:hover{
+        opacity: .8;
+    }
+
+    .cards-body3{
+        background:rgba(250, 250, 250, 0.568);
+        box-shadow: 1px 10px 25px rgba(0,0,0,.19);
+        width: 180px;
+        height: 270px;
+        margin: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .cards-body3:hover{
+        opacity: .8;
+    }
+
+    .Bottom-of-home{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        padding-right: 3%;
+        padding-top: 15%;
+       /* padding: 180px; */
+        font-family: "Roboto";
+      
+    }
+    
+    .blog-card-title{
+        font-size: 14px;
+        background-color: #5b5e8e;
+        color: white;
+        width: 180px;
+        height: 28px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        font-family: "Roboto", "san-serif";
+       
+    }
+
+
+    .Footer{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        padding-bottom: 1%;
+        /* position:relative; */
+        /* left:0;
+        bottom:0;
+        right: 0;  */
+    }
+
+    
+
+
