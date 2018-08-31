@@ -30,7 +30,7 @@ class About extends Component{
                                                 Creating is a constant in my life, as I also love to work with Adobe Photoshop & Illustrator to make graphics.                       
                                                 <p> 
                                                 When I’m not in front of a computer screen coding or designing, I love to write, 
-                                                check out new restaurants (yes, I’m a “foodie” haha), and catch the latest podcasts! My current podcast faves are ‘The Read’ and ‘This American Life’.</p>
+                                                check out new restaurants (yes, I’m a “foodie” haha), and catch the latest podcasts! My current podcast faves are ‘The Read’ and ‘This American Life’. Living my best life!</p>
                                                 </p>
                                         </Col>
                                             <Col sm={7}>
