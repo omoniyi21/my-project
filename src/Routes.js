@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, HashRouter} from "react-router-dom";
 import Home from "./components/Home/Home.js";
 import About from "./components/About/About.js";
 import Contact from "./components/Contact/Contact.js";
@@ -11,15 +11,16 @@ import LandingPage from "./components/Landing/landing.js";
 import Blogs from "./components/Blog/Blog.js";
 
 export default () =>
-
-    <Switch>
-    <Route path="/" exact component={LandingPage}/>
-    <Route path="/Home" exact component={Home}/>
-    <Route path="/About" exact component={About}/> 
-    <Route path="/Contact" exact component={Contact}/>
-    <Route path="/Portfolio" exact component={Portfolio}/>
-    <Route path="/Services" exact component={Services}/>
-    <Route path="/Webdev" exact component={WebDesign}/>
-    <Route path="/Graphics" exact component={Graphic}/>
-    <Route path="/Blog" exact component={Blogs}/>
-    </Switch>
+    <HashRouter>
+        <Switch>
+            <Route path="/" exact component={LandingPage}/>
+            <Route path="/Home" exact component={Home}/>
+            <Route path="/About" exact component={About}/> 
+            <Route path="/Contact" exact component={Contact}/>
+            <Route path="/Portfolio" exact component={Portfolio}/>
+            <Route path="/Services" exact component={Services}/>
+            <Route path="/Webdev" exact component={WebDesign}/>
+            <Route path="/Graphics" exact component={Graphic}/>
+            <Route path="/Blog" exact component={Blogs}/>
+        </Switch>
+    </HashRouter>
