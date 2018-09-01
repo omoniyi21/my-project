@@ -3,6 +3,7 @@ import './Contact.css';
 import {Form, FormGroup, Label , FormText, Col, Input } from "reactstrap";
 import Navigation from "../Nav/Nav";
 import Footers from "../Nav/Footer";
+import {Button} from "react-bootstrap";
 
 export default class About extends Component {
     render(){
@@ -10,14 +11,24 @@ export default class About extends Component {
             <div className="Contact">
             <Navigation/>
             <div className="Footer"><Footers/></div>
-            <Form>
-                <FormGroup>
-                    <Label for="subscriberEmail" sm={2}> Email</Label>
-                    <Col sm={5}>
-                        <Input type="email" name="email" id="subscriberEmail"/>
-                    </Col>
-                </FormGroup>
-            </Form>
+            <center><p className="titlecontact1">Lets Connect!</p></center>
+            <div className="boxforcontact">
+            <Form action="https://formspree.io/omoniyi21@gmail.com" method="POST" id="contactform">
+            <FormGroup className="Form">
+                <Label className="titlecontact2">Name:</Label>
+                <Input className="contacttable" type="text" name="name" placeholder="name" />
+            </FormGroup>
+            <FormGroup>
+                <Label className="titlecontact">Email:</Label>
+                <Input className="contacttable" type="email" name="replyto" placeholder="email" />
+            </FormGroup>
+            <FormGroup>
+                <Label className="titlecontact">Message:</Label>
+                <Input className="contacttable" type="text" name="message" placeholder="message"/>
+            </FormGroup>
+            <center><Button className="Button" type="submit">Submit</Button></center>
+                </Form>                         
+                </div>
             </div>
         )
     }

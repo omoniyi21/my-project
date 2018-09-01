@@ -11,6 +11,7 @@ import {
     Nav,
     NavItem,
     NavLink,
+    
      } from 'reactstrap';
 
 
@@ -39,14 +40,31 @@ class Navigation extends Component {
         
     
     <div className="Navigation"> 
-      <ul>
-          <ul>HOME</ul>
-          <ul>ABOUT</ul>
-          <ul>WORK</ul>
-          <ul>SERVICES</ul>
-          <ul>CONTACT</ul>
-      </ul>
-    </div>
+        <Row> 
+            <Col sm={12}>
+        
+        <Nav className = "Links" >
+          <NavItem><NavLink href="/#/Home">HOME</NavLink></NavItem>
+          <NavItem><NavLink href="/#/About">ABOUT</NavLink></NavItem>
+          
+          <Dropdown nav isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+            <DropdownToggle nav >
+            <NavItem> WORK </NavItem>
+            </DropdownToggle>
+            <DropdownMenu>
+              <DropdownItem><NavLink href="/#/Portfolio">ALL WORK</NavLink></DropdownItem>
+              <DropdownItem divider />
+              <DropdownItem><NavLink href="/#/graphics">GRAPHICS</NavLink></DropdownItem>
+              <DropdownItem><NavLink href="/#/WebDev">WEB DESIGN</NavLink></DropdownItem>
+            </DropdownMenu>
+            </Dropdown>
+          <NavItem ><NavLink href="/#/Services">SERVICES</NavLink></NavItem>
+          <NavItem ><NavLink href="/#/Contact">CONTACT</NavLink></NavItem>
+        </Nav>
+      
+            </Col>
+        </Row>
+     </div>
     
     
         );
@@ -55,10 +73,11 @@ class Navigation extends Component {
 
 export default Navigation;
 
+
 // <Navbar collapseOnSelect staticTop>
 // <Navbar.Header>
 //     <Navbar.Brand>
-//         <Link to="/Home">Omoniyi Alimi</Link>
+//         <Na eventKey={1} to="/Home">Omoniyi Alimi</Na eventKey={1}>
 //     </Navbar.Brand>
 //         <Navbar.Toggle/>
 // </Navbar.Header>
@@ -72,27 +91,3 @@ export default Navigation;
 //             </Navbar.Collapse>
 // </Navbar>
 
-// <Row> 
-// <Col sm={12}>
-
-// <Nav className = "Links" >
-// <NavItem><NavLink href="/Home">HOME</NavLink></NavItem>
-// <NavItem><NavLink href="/About">ABOUT</NavLink></NavItem>
-
-// <Dropdown nav isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-// <DropdownToggle nav >
-// <NavItem> WORK </NavItem>
-// </DropdownToggle>
-// <DropdownMenu>
-//   <DropdownItem><NavLink href="/Portfolio">ALL WORK</NavLink></DropdownItem>
-//   <DropdownItem divider />
-//   <DropdownItem><NavLink href="/graphics">GRAPHICS</NavLink></DropdownItem>
-//   <DropdownItem><NavLink href="/WebDev">WEB DESIGN</NavLink></DropdownItem>
-// </DropdownMenu>
-// </Dropdown>
-// <NavItem ><NavLink href="/Services">SERVICES</NavLink></NavItem>
-// <NavItem ><NavLink href="/Contact">CONTACT</NavLink></NavItem>
-// </Nav>
-
-// </Col>
-// </Row>

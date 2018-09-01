@@ -1,5 +1,5 @@
 .blog-background{
-    font-family: 'Pacifico'; 
+    font-family: 'Merriweather', 'sans-serif'; 
     height: 100vh;
      width: 100%;
     background-attachment: fixed;
@@ -21,6 +21,9 @@
 
 .BlogCards{
     margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
 }
 
 .Footer{
@@ -33,3 +36,4 @@
     bottom:0;
     right:0;  
 }
+

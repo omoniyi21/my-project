@@ -3,8 +3,9 @@ import './services.css'
 import Navigation from "../Nav/Nav";
 import Footers from "../Nav/Footer";
 import sketch from "../Portfolio/images/Sketch.png";
-import {Row} from "react-bootstrap";
+import {Row, Button} from "react-bootstrap";
 import {Link} from "react-router-dom";
+import "animate.css";
 
 
 class Services extends Component {
@@ -14,35 +15,70 @@ class Services extends Component {
                 <div className="services-background">
                     <Navigation/>
                     <div className="Footer"><Footers/></div>
-                    
+                    <center><p className="titleservices">Services</p></center>
                         <div className="my-services">
+                        
+                        <div className= "animated flipInY">
                         <Row className="services">
-                            <div className="cards-services">
-                                <p className="serivce"></p>
-                                    <h1>LOGOS starting at $60</h1>
-                            </div>
-                                <div className="cards-services">
-                                    <p className="serivce"></p>
-                                        <center><h1>Flyers starting at $35</h1></center>
-                                </div>
-                                    <div className="cards-services">
-                                        <p className="serivce"></p>
-                                            <h1>Business Cards starting at $60</h1>
+                            <div className="service-card">
+                            <div className="service-card-title"> 
+                            <Row className="box-space">
+                                <p>Invitations</p>
+                                </Row>
+                                    <div className="actual-service">
+                                        STARTING AT $45
                                     </div>
-                                        <div className="cards-services">
-                                        <p className="serivce"></p>
-                                            <h1>Invitations starting at $45</h1>
-                                        </div>
-                                            <div className="cards-services">
-                                                <p className="serivce"></p>
-                                                    <h1>Website Development<br></br>(inquire for prices)</h1>
-                                             </div>
-                                </Row> 
-                            <p>50% NONREFUNDABLE DEPOSIT DUE BEFORE WORK CAN COMMENCE</p>
-                            <p><Link to ="/Contact">Email </Link> me to set up a service today!</p>
+                            </div>
+                        </div>
+                        <div className="service-card">
+                        <div className="service-card-title"> 
+                        <Row className="box-space">
+                            <p>Flyers</p>
+                            </Row>
+                                <div className="actual-service">
+                                    STARTING AT $35
+                                </div>
+                        </div>
+                        </div>
+                        <div className="service-card">
+                        <div className="service-card-title"> 
+                        <Row className="box-space">
+                            <p>Business Cards</p>
+                            </Row>
+                                <div className="actual-service">
+                                    STARTING AT $65
+                                </div>
+                        </div>
+                        </div>
+                    <div className="service-card">
+                    <Row>
+                    <div className="service-card-title">
+                        <p>Logos</p>
+                            <div className="actual-service">
+                                <p>STARTING AT $65</p>
+                            </div>
+                    </div>
+                    </Row>
+                </div>
+                <div className="service-card">
+                <Row>
+                <div className="service-card-title">
+                       <p className="special-box"> Website </p> 
+                        <div className="actual-service">
+                            <p>INQUIRE FOR QUOTE</p>
                         </div>
                 </div>
+                </Row>
             </div>
+                                </Row> 
+                            <p className="bottom-of-service">*50% NONREFUNDABLE DEPOSIT DUE BEFORE WORK CAN COMMENCE*</p>
+                            <p className="bottom-of-service"><Link to ="/Contact"><Button>Book Today!</Button></Link> </p>
+                        </div>
+                       </div>
+                </div>
+                 
+            </div>
+            
         )
     }
 }
