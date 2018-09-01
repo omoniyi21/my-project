@@ -50,7 +50,7 @@ class Services extends Component {
                             <p>Business Cards</p>
                             </Row>
                                 <div className="actual-service">
-                                    STARTING AT $65
+                                    STARTING AT $80
                                 </div>
                         </div>
                         </div>
@@ -61,7 +61,7 @@ class Services extends Component {
                     <div className="service-card-title">
                         <p>Logos</p>
                             <div className="actual-service">
-                                <p>STARTING AT $65</p>
+                                <p>STARTING AT $110</p>
                             </div>
                     </div>
                     </Row>
