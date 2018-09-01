@@ -11,6 +11,7 @@ export default class About extends Component {
             <div className="Contact">
             <Navigation/>
             <div className="Footer"><Footers/></div>
+            <div className="animated swing">
             <center><p className="titlecontact1">Lets Connect!</p></center>
             <div className="boxforcontact">
             <Form action="https://formspree.io/omoniyi21@gmail.com" method="POST" id="contactform">
@@ -28,6 +29,7 @@ export default class About extends Component {
             </FormGroup>
             <center><Button className="Button" type="submit">Submit</Button></center>
                 </Form>                         
+                </div>
                 </div>
             </div>
         )

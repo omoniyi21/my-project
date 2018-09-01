@@ -20,7 +20,7 @@ class WebDesign extends Component {
             <Navigation/>
             
             <div className="webdev-title">
-                <img className="animated tada" src = {webtitle}/>
+                <img className="animated fadeinDown" src = {webtitle}/>
             </div>
             <Row>
             <a className="photogrid1" href = "https://www.lambdahairschool.com"> <img className="animated bounceIn" src= {latestwork} width="300px" height="200px" /></a>

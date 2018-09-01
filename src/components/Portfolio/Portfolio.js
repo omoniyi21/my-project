@@ -43,7 +43,11 @@ class Portfolio extends Component {
                                 <img src={Designerbutton} width="140px" height="100px" />
                             </span>
                         </div>
-                       
+                        <Row lg={12} className="photogrid1">
+                        
+                        <Button>Resume</Button> 
+                        
+                        </Row>
                         <Row lg={12} className="photogrid1">
                         
                         <a href = "https://www.youtube.com/watch?v=iRNm42evvT0"> <img src= {latestwork} width="300px" height="200px" /></a>
@@ -59,7 +63,7 @@ class Portfolio extends Component {
                             <img className="photo1" src={FMAG} width= "300px" height= "300" />
                         </Row>
                             <Row className="photogrid">
-                                <img className="photo1" src={Vday} width= "300px" height= "300" />
+                                <img className="photo1" src={Vday} width= "300px" height= "300px" />
                                 <img className="photo1" src={bell} width="300px" height="300px"/>
                                 <img className="photo1" src={bell2} width="300px" height="300px"/>
                                 <img className="photo1" src={Floral} width="300px" height="300px"/>

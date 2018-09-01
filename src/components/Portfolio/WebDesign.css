@@ -25,3 +25,12 @@
     padding-bottom: 3%;
 }
 
+@media (min-width: 0px) and (max-width: 950px ) {
+    .web-background{
+        height: 100%;
+         width: 100%;
+    }
+    
+  }
+
+  

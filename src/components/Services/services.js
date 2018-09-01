@@ -14,12 +14,12 @@ class Services extends Component {
             <div>
                 <div className="services-background">
                     <Navigation/>
-                    <div className="Footer"><Footers/></div>
                     <center><p className="titleservices">Services</p></center>
                         <div className="my-services">
                         
-                        <div className= "animated flipInY">
+                        
                         <Row className="services">
+                        <div className= "animated flipInY">
                             <div className="service-card">
                             <div className="service-card-title"> 
                             <Row className="box-space">
@@ -30,6 +30,8 @@ class Services extends Component {
                                     </div>
                             </div>
                         </div>
+                        </div>
+                        <div className= "animated flipInY">
                         <div className="service-card">
                         <div className="service-card-title"> 
                         <Row className="box-space">
@@ -40,6 +42,8 @@ class Services extends Component {
                                 </div>
                         </div>
                         </div>
+                        </div>
+                        <div className= "animated flipInY">
                         <div className="service-card">
                         <div className="service-card-title"> 
                         <Row className="box-space">
@@ -50,6 +54,8 @@ class Services extends Component {
                                 </div>
                         </div>
                         </div>
+                        </div>
+                        <div className= "animated flipInY">
                     <div className="service-card">
                     <Row>
                     <div className="service-card-title">
@@ -60,6 +66,8 @@ class Services extends Component {
                     </div>
                     </Row>
                 </div>
+                </div>
+                <div className= "animated flipInY">
                 <div className="service-card">
                 <Row>
                 <div className="service-card-title">
@@ -68,12 +76,15 @@ class Services extends Component {
                             <p>INQUIRE FOR QUOTE</p>
                         </div>
                 </div>
+                
                 </Row>
+            </div>
             </div>
                                 </Row> 
                             <p className="bottom-of-service">*50% NONREFUNDABLE DEPOSIT DUE BEFORE WORK CAN COMMENCE*</p>
                             <p className="bottom-of-service"><Link to ="/Contact"><Button>Book Today!</Button></Link> </p>
-                        </div>
+                            
+                        
                        </div>
                 </div>
                  
@@ -84,3 +95,5 @@ class Services extends Component {
 }
 
 export default Services
+
+//<div className="Footer"><Footers/></div>

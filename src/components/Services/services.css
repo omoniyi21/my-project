@@ -35,8 +35,8 @@
 
 .service-card{
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    justify-content: space-around;
+    margin: 40px;
     background-color: rgba(255, 247, 247, 0.692);
     width: 180px;
     height: 220px;
@@ -94,6 +94,17 @@
 }
 
 .animated{
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
+@media (min-width: 0px) and (max-width: 950px ) {
+    .services-background{
+        height: 100%;
+         width: 100%;
+    }
+
+    .Footer{
+        display: none;
+    }
+    
+  }

@@ -37,7 +37,7 @@ class Graphic extends Component {
             <Navigation/>  
                 
                         <div className = "Title-graphics">
-                    <img className="animated tada" src = {graphicstitle}/>
+                    <img className="animated fadeInDown" src = {graphicstitle}/>
                     </div>
                     <Row lg={12} className="photogrid">
                         
