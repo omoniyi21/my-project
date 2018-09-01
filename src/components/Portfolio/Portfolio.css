@@ -52,6 +52,12 @@
     
 }
 
+.Button{
+    width: 60px;
+    height: 30px;
+    font-family: 'Merriweather';
+    
+}
 
 
 .photo1:hover{

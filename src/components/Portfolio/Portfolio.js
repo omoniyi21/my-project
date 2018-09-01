@@ -5,7 +5,7 @@ import "./Portfolio.css"
 import Navigation from "../Nav/Nav";
 import { Button, Row, Col, Popover } from "react-bootstrap";
 import { Table } from "reactstrap";
-
+import {Link} from "react-router-dom";
 import Africa from "./images/Africa.jpg";
 import Akademics from "./images/AKADEMICS.jpg";
 import Floral from "./images/floralinvite.jpg";
@@ -30,6 +30,7 @@ import latestwork from "./images/latest-work.png";
 import "animate.css"
 
 
+
 class Portfolio extends Component {
     render() {
         return (
@@ -45,7 +46,7 @@ class Portfolio extends Component {
                         </div>
                         <Row lg={12} className="photogrid3">
                         
-                        <Button>Resume</Button> 
+                        <Button className="Button"><Link to = "/Resume">RESUME</Link></Button> 
                         
                         </Row>
                         <Row lg={12} className="photogrid3">

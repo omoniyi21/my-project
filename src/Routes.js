@@ -9,6 +9,7 @@ import WebDesign from "./components/Portfolio/WebDesign.js";
 import Graphic from "./components/Portfolio/Graphics.js";
 import LandingPage from "./components/Landing/landing.js";
 import Blogs from "./components/Blog/Blog.js";
+import Resumes from "./components/Portfolio/Resume";
 
 export default () =>
     <HashRouter>
@@ -22,5 +23,6 @@ export default () =>
             <Route path="/Webdev" exact component={WebDesign}/>
             <Route path="/Graphics" exact component={Graphic}/>
             <Route path="/Blog" exact component={Blogs}/>
+            <Route path="/Resume" exact component={Resumes}/>
         </Switch>
     </HashRouter>
