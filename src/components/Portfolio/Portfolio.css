@@ -40,6 +40,13 @@
     padding-bottom: 3%;
 }
 
+.photogrid3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
 .photo1{
     box-shadow: 1px 10px 25px rgba(0,0,0,.19);
     

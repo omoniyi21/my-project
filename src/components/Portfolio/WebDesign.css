@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
     background-image: url(./images/backgroundgraphic2.png);
     overflow: hidden; 
 }
@@ -23,6 +24,38 @@
     margin: auto;
     margin-top: 10%;
     padding-bottom: 3%;
+    height: 200px;
+    box-shadow: 1px 10px 25px rgba(0,0,0,.19);
+}
+
+.lambdacomment{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-family: 'Merriweather', 'sans-serif';
+}
+
+.lambdacomment1{
+    font-size: 14pt;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    color: black;
+    text-shadow: 1px 10px 20px rgba(0,0,0,.19);
+}
+
+.lambdacomment2{
+    font-size: 14pt;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    color: black;
+    text-shadow: 1px 10px 20px rgba(0,0,0,.19);
 }
 
 @media (min-width: 0px) and (max-width: 950px ) {
@@ -33,4 +66,4 @@
     
   }
 
-  
+

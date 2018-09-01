@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 import {Row, Col, Grid, Panel, Button, Jumbotron} from "react-bootstrap";
 import Navigation from "../Nav/Nav";
 import "animate.css";
-import Footers from "../Nav/Footer.js"
+
 
 
 class About extends Component{
@@ -17,7 +17,7 @@ class About extends Component{
             <div>
                 <div className = "Title">
                     <Navigation/>
-                        <div className = "Footer"><Footers/></div>
+                        
                                 <div className="biography-container">
                                     <span className="animated slideInUp">
                                         <Col sm={5}>

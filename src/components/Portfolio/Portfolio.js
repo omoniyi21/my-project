@@ -3,7 +3,7 @@ import Designerbutton from "./images/Designerbutton.png";
 import mynamebutton from "./images/mynamebutton.png";
 import "./Portfolio.css"
 import Navigation from "../Nav/Nav";
-import { Button, Row, Col } from "react-bootstrap";
+import { Button, Row, Col, Popover } from "react-bootstrap";
 import { Table } from "reactstrap";
 
 import Africa from "./images/Africa.jpg";
@@ -43,13 +43,12 @@ class Portfolio extends Component {
                                 <img src={Designerbutton} width="140px" height="100px" />
                             </span>
                         </div>
-                        <Row lg={12} className="photogrid1">
+                        <Row lg={12} className="photogrid3">
                         
                         <Button>Resume</Button> 
                         
                         </Row>
-                        <Row lg={12} className="photogrid1">
-                        
+                        <Row lg={12} className="photogrid3">
                         <a href = "https://www.youtube.com/watch?v=iRNm42evvT0"> <img src= {latestwork} width="300px" height="200px" /></a>
                         
                         </Row>

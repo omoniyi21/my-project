@@ -36,7 +36,7 @@
     justify-content: center;
     align-items: center;
     color: #5b5e8e;
-    text-shadow: 1px 1px 1px #b7b7b7;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.19);
     border-radius: 8px;
     width: 100%;
     flex-flow: row wrap;
@@ -52,7 +52,7 @@
     
     
     .welcome-subtext{
-        font-family: "Roboto", "sans-serif";
+        font-family: "Merriweather", "sans-serif";
         font-size: 12pt;
     }
 
@@ -180,14 +180,34 @@
              width: 100%;
         }
     
+        .cards-body{
+            display: none;
+        }
+    
+        
+    
+        .cards-body2{
+            display: none;
+        }
+    
+    
+        .cards-body3{
+          display: none;
+        }
+    
+       
+    
+        .Bottom-of-home{
+            display: none;
+        }
+        
+        .blog-card-title{
+           display: none;
+        }
+
         .Footer{
             display: none;
         }
-
-        .cards{
-            display: none;
-        }
-
         
       }
 

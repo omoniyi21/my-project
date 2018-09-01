@@ -62,3 +62,10 @@
     justify-content: center;
     color: #3A5C7A;
 }
+
+@media (min-width: 0px) and (max-width: 780px ) {
+    .Contact{
+        height: 100%;
+         width: 100%;
+    }
+}

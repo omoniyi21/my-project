@@ -1,7 +1,7 @@
 import React , {Component} from "react";
 // import {Card, CardImg, CardText, CardBody,
 //     CardTitle, CardSubtitle, Button} from "reactstrap";
-import {Panel, Row} from "react-bootstrap"
+import {Panel, Row, Button} from "react-bootstrap"
 import "./skills.css";
 import Navigation from "../Nav/Nav";
 import "./WebDesign.css";
@@ -22,12 +22,14 @@ class WebDesign extends Component {
             <div className="webdev-title">
                 <img className="animated fadeinDown" src = {webtitle}/>
             </div>
+            <p className="lambdacomment1">Lambda Hair School</p>
+            <p className="lambdacomment">Lambda Hair School is a Full Stack Application that can be used to schedule hair appointments & leave ratings for stylists.</p> 
+            <p className="lambdacomment2"><Button><a href = "https://github.com/Lambda-School-Labs/CS8-hairschool">Github</a></Button></p>
             <Row>
             <a className="photogrid1" href = "https://www.lambdahairschool.com"> <img className="animated bounceIn" src= {latestwork} width="300px" height="200px" /></a>
-            <a className="photogrid1" href = "https://www.lambdahairschool.com"> <img className="animated bounceIn" src= {website2} width="300px" height="200px" /></a>
-            <a className="photogrid1" href = "https://www.lambdahairschool.com"> <img className="animated bounceIn" src= {website3} width="300px" height="200px" /></a>
+            <a className="photogrid1" > <img className="animated bounceIn" src= {website2} width="300px" height="200px" /></a>
+            <a className="photogrid1" > <img className="animated bounceIn" src= {website3} width="300px" height="200px" /></a>
             </Row>
-                <p className="lambdacomment">Lambda Hair School is a Full Stack Application that can be used to schedule hair appointments & leave ratings for stylists. Check out the GitHub repo here!</p>
                 </div>
             </div>
         )

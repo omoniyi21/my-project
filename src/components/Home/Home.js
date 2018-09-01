@@ -38,8 +38,8 @@ class Home extends Component{
                                 </Col>
                                     <Col md={6}>
                                         <div className="welcome-container">
-                                                <p>Let Create Together!  </p>
-                                                <div className="welcome-subtext"><p> Ive got a thing for Front-end Development and Graphic Design.</p></div>
+                                                <p>Let&apos;s Create Together!  </p>
+                                                <div className="welcome-subtext"><p> I&apos;ve got a thing for Front-end Development and Graphic Design.</p></div>
                                              </div>
                                              <Row className="cards" sm={5}>
                                                 <div className="cards-body">

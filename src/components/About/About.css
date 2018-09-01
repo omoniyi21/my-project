@@ -91,6 +91,52 @@
   }
 
   .biography-container{
-      display: none;
-  }
+    font-family: "Roboto", 'sans serif';
+    font-size: 10pt;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+  .biography:hover{
+    opacity: .8;
+}
+
+.biography{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+ .aboutheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+.aboutheader .Polapic{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    padding-top: 10px;
+}
+
+.aboutheader .Polapic:hover{
+    opacity: .8;
+}
+
+.Bio-Title{
+    font-family: "Pacifico"
+}
+
+.animated{
+    animation-duration: 1s;
+}
+
+.Footer{
+    display: none;
+}
+
 }

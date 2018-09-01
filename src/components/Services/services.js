@@ -38,7 +38,7 @@ class Services extends Component {
                             <p>Flyers</p>
                             </Row>
                                 <div className="actual-service">
-                                    STARTING AT $35
+                                    STARTING AT $80
                                 </div>
                         </div>
                         </div>
