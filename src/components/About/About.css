@@ -49,12 +49,6 @@
    
 }
 
-
-.aboutheader-container{
-
- 
-}
-
  .aboutheader{
     display: flex;
     flex-direction: row;
@@ -99,4 +93,19 @@
 
 .animated{
     animation-duration: 1s;
+}
+
+@media (min-width: 0px) and (max-width: 950px ) {
+
+    .Title{font-family: "Roboto", "sans serif"; 
+    height: 100%;
+    width: 100%;
+    background-image:url("./newback1.png") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #FFC9CC;  */
+    overflow: hidden;} 
+
 }
